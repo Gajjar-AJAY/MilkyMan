@@ -1,0 +1,100 @@
+.testimonials_container{
+	height: auto;
+	width: 100%;
+	/*background: #efefef;*/
+}
+
+.testimonials_container h3{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	margin: 30px 0px 0px 0px;
+	letter-spacing: 0.8px;
+	
+}
+
+.testimonials_container span{
+	color: #630000;
+}
+
+.testimonials_content{
+	height: auto;
+	width: 100%;
+	/*padding: 2rem 9%;*/
+	/*background: lightgreen;*/
+}
+
+.singal_review{
+	height: auto;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin-left: -10px;
+/*	display: grid;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.singal_review img{
+	height: 70px;
+	object-fit: contain;
+}
+
+.singal_review h4{
+	color: #630000;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.singal_review p{
+	font-size: 13px;
+	letter-spacing: 1px;
+	padding: 5px;
+}
+
+.star_sec i{
+	color: #630000;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+
+
+
+.carousel {
+  /*background: red;*/
+}
+
+.carousel-cell {
+	width: 100%;
+  	height: auto;
+  	border-radius: 6px;
+	padding: 4rem 15%; 
+}
+
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background: #630000;
+    border-radius: 50%;
+    opacity: .25;
+    cursor: pointer;
+}
+
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    /* bottom: -25px; */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}

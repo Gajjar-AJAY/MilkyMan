@@ -1,0 +1,78 @@
+.login_container{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.8);
+  	display: none;
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	padding-top: 100px;
+  	overflow: auto;
+  	z-index: 1000;
+}
+
+.login_container_mobile{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.8);
+  	display: none;
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	padding-top: 100px;
+  	overflow: auto;
+  	z-index: 1000;
+}
+.login_content{
+	position: relative;
+	border-radius: 8px;
+	background: #fefefe;
+	margin: 5% auto 5% auto;
+	width: 50%;
+	text-align: center;
+	-webkit-animation-name: loginmodel;
+	-webkit-animation-duration: 0.4s;
+	animation-name: loginmodel;
+	animation-duration: 0.4s;
+}
+
+.login_content h3{
+	color: #630000;
+	font-size: 30px;
+	padding: 10px;
+}
+
+
+.login_input{
+	padding: 10px;
+}
+
+.login_input input{
+	padding: 1.5rem;
+	margin: 2rem 0;
+	font-size: 1.5rem;
+	color: #630000;
+	width: 80%;
+}
+
+@media(max-width: 768px){
+	.login_content {
+		width: 80%;
+	}
+
+	.login_content_mobile {
+		width: 80%;
+	}
+}
+
+@-webkit-keyframes loginmodel {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes loginmodel {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
