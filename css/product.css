@@ -1,0 +1,104 @@
+.product_container{
+	height: auto;
+	width: 100%;
+	/*background: #efefef;*/
+}
+
+.product_container h3{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	margin:20px 0px 20px 0px;
+	letter-spacing: 0.8px;
+	
+}
+
+.product_container h3 span{
+	color: #630000;
+}
+
+.products_content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 2rem 10%;
+	align-items: center;
+}
+
+
+.singal_card{
+	height: auto;
+	width: auto;
+	background: #fff;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 20px;
+	/*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 5px;
+}
+
+.singal_card:hover{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+	transition: all 0.2s linear;
+	cursor: pointer;
+}
+
+.singal_card img{
+	border-radius: 5px;
+}
+
+.singal_card h2{
+	font-size: 18px;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+.price_sec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.price_sec .old_price{
+	font-size: 15px;
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+.price_sec .new_price{
+	font-size: 13px;
+	text-decoration: line-through; 
+}
+
+.singal_card .qty{
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.singal_card a{
+	padding: 10px;
+	font-size: 15px;
+	background: #000;
+	margin: 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.singal_card a:hover{
+	background: #630000;
+	letter-spacing: 1px;
+}
+
+@media(max-width: 849px){
+	.products_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 2%;
+    align-items: center;
+	}
+}

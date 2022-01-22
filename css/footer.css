@@ -1,0 +1,171 @@
+footer{
+	height: auto;
+	width: 100%;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	/*background: #efefef;*/
+}
+
+.footer_content{
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: 	wrap;	
+	align-content: center;
+}
+
+.footer_content .about_footer{
+	height: auto;
+	width: 300px;
+
+}
+
+.footer_content .about_footer #footer_logo img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+
+
+.footer_content .about_footer p{
+	font-size: 14px;
+	text-align: justify;
+	color: grey;
+	padding: 5px;
+}
+
+.soical_media{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.soical_media i{
+	width: 40px;
+	height: 40px;
+	color: #630000;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	padding: 14px;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 2px solid #630000;
+	font-weight: 700;
+}
+
+.soical_media i:hover{
+	color: #fff;
+	background: #630000;
+}
+
+.important_link h3{
+	color: #630000;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.important_link a{
+	display:block;
+	font-size: 14px;
+	color: grey;
+	text-decoration: none;
+	padding: 3px 0px;
+}
+
+.important_link a:hover,.branch a:hover{
+	color: #630000;
+	font-weight: 900;
+}
+
+.branch h3{
+	color: #630000;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.branch a{
+	display:block;
+	font-size: 14px;
+	color: grey;
+	text-decoration: none;
+	padding: 3px 0px;
+}
+
+.address{
+	height:auto;
+	width: 300px;
+	display: block;
+	padding-top: 30px;
+	font-size: 14px;
+}
+
+
+.address h3{
+	color: #630000;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+
+.address p{
+	font-size: 13px;
+	color: grey;
+	text-align: justify;
+}
+.address p i{
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+.address i{
+	padding-right: 10px;
+	color: grey;
+	font-size: 13px;
+}
+.address label{
+		color: grey;
+		font-size: 13px;
+}
+.copyright{
+	text-align: center;
+	font-size: 15px;
+}
+
+.copyright p{
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-weight: 600;
+	padding: 15px;
+	background: #efefef;
+}
+
+.copyright span{
+	color: #630000;
+	font-weight: 800;
+}
+
+.copyright a{
+	color: #630000;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+@media(max-width: 468px){
+	.branch h3{
+		padding-top: 20px;
+	}
+
+	.important_link h3{
+		padding-top: 20px;
+	}
+}

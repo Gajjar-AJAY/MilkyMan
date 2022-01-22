@@ -1,0 +1,34 @@
+.funfact_container{
+	height: auto;
+	width: 100%;
+	/*background: #efefef;*/
+	padding: 2rem 9%;
+}
+
+.funfact_content{
+	height: auto;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 8%;
+	border-radius: 6px;
+}
+
+.funfact_content .singal_row{
+	padding: 10px;
+}
+
+.funfact_content .singal_row h2{
+	font-size: 22px;
+	text-align:left;
+}
+
+
+.funfact_content .singal_row label{
+	font-size: 15px;
+	text-align: left;
+}	
